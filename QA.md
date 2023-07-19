@@ -1,4 +1,5 @@
 What are your risk areas? 
+
 •	Assumptions on the data were made with out the option to contact the database creator.
 
 
@@ -7,14 +8,23 @@ What are your risk areas?
 
 
 QA Process:
-•	Understanding the accuracy and completeness of the data, verifying data types are compatible with each other,  understanding the relations between tables
+
+-- Understanding the accuracy and completeness of the data, verifying data types are compatible with each other,  understanding the relations between tables
+-- Comparing counts with the data source files
+-- Random  searching of values
+
+
+Query Examples for quality testing:
 
 Unit Test Examples
 --count in both tables  is 5511 SKU
+
 SELECT COUNT(p."SKU"), COUNT(als."SKU") FROM products p
 JOIN all_sessions als
 ON als."SKU" = p."SKU"
 WHERE als.city != 'NULL' and als.country != 'NULL’
+
+
  Comparing counts with the data source files
 Random  searching of values
 
