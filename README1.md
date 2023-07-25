@@ -4,7 +4,7 @@
 Provide valid answers in a timely manner to the 5 questions about the ecommerce database 
 
 ## Process
-Profile the info in the database , validate and clean, design some queries,and document
+Profile the info in the database, define assumptions , validate and clean, design some queries,and document
 
 
 ## Results
