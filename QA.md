@@ -2,12 +2,9 @@ Below information can also be found in the attch powerpoint presentation.
 
 What are your risk areas? 
 
-•	Assumptions on the data were made with out the option to contact the database creator.
+- Assumptions on the data were made with out the option to contact the database creator
 
-
-
-
-
+- Database provieded seems to have a lot of subjetivity or lack of standards in its contents
 
 QA Process:
 
